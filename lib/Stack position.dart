@@ -34,7 +34,8 @@ class _Stack_PositionState extends State<Stack_Position> {
                           right: 10,
                           bottom: 10,
                           child: Container(
-                            color: Colors.green,
+                            child: Text('fgvhb',style: TextStyle(fontSize: 15),),
+                            color: Colors.red,
 
                           )),
                       Positioned(

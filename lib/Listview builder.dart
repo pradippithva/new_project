@@ -9,7 +9,7 @@ class Listview_Builder extends StatefulWidget {
 
 class _Listview_BuilderState extends State<Listview_Builder> {
   final List<dynamic> Addtext = ['one', 'two', 'three', 'four', 'five','six'];
-  final List<dynamic> Colorcodes = [100, 300, 100, 100, 100,100];
+  final List<dynamic> Colorcodes = [300, 300, 100, 100, 100,100];
   final List<dynamic> Fontcode = [];
 
   final List<dynamic> Iconslist = [];
@@ -23,8 +23,8 @@ class _Listview_BuilderState extends State<Listview_Builder> {
             child: Column(
               children: [
                 Container(
-                  height: 200,
-                  width: 600,
+                  height: 500,
+                  width: 500,
                   child: ListView.builder(
                       itemCount: Addtext.length,
                       itemBuilder: (BuildContext context, int index) {

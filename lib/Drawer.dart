@@ -20,7 +20,7 @@ class _Drawer_ScreenState extends State<Drawer_Screen> {
       appBar: AppBar(
         leading: IconButton(
             onPressed: () {
-              scaffoldKey.currentState?.openDrawer();
+              scaffoldKey.currentState?.openEndDrawer();
             },
             icon: Icon(Icons.account_box_outlined)),
         title: Text("Drawer Screen"),
@@ -33,7 +33,7 @@ class _Drawer_ScreenState extends State<Drawer_Screen> {
               fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
         ),
       ),
-      drawer: Drawer(
+      endDrawer: Drawer(
         child: ListView(
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,

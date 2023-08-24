@@ -31,6 +31,8 @@ class _chekbox_practiceState extends State<chekbox_practice> {
                       onChanged: (value) {
                         setState(() {
                           _chekbox_one = !_chekbox_one;
+                          _checkbox_2 = !_checkbox_2;
+                          _checkbox_3 = !_checkbox_3;
                         });
                       }),
                   Text('are you sure')
@@ -45,10 +47,6 @@ class _chekbox_practiceState extends State<chekbox_practice> {
                       _checkbox_2 = ! _checkbox_2;
                     });
                   },),
-
-
-
-
 
               CheckboxListTile(
                 controlAffinity: ListTileControlAffinity.leading,

@@ -39,7 +39,7 @@ class _radiobuttonState extends State<radiobutton> {
               });
             },
           ),
-
+          Divider(height: 10,),
           RadioListTile(
             title: Text("Female"),
             value: "female",
