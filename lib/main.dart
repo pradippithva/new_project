@@ -11,6 +11,7 @@ import 'Alert Dailog.dart';
 import 'Alert box.dart';
 import 'Drawer.dart';
 import 'Grideview.dart';
+import 'Image_slider.dart';
 import 'LIst.dart';
 import 'L_View_Screen.dart';
 import 'Listview builder.dart';
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: vertical_horizontal()
+      home: image_slider()
     );
   }
 }

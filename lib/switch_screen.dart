@@ -16,7 +16,7 @@ class _SwitchScreenState extends State<SwitchScreen> {
   bool status3 = false;
   bool status4 = false;
 
-  bool isSwitchOn = false;
+  bool isSwitchOn = true;
 
   @override
   Widget build(BuildContext context) {
